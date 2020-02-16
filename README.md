@@ -1,2 +1,1 @@
-# spring-jpa-datamodeling-hibernate-easy
-Easy project for understanding
+# Spring Boot Recipe Application
