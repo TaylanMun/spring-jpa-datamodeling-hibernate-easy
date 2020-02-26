@@ -19,7 +19,15 @@
             <div class="card border-primary">
 
                 <div class="card-header bg-primary">
-                    <h1 class="card-title text-white">Ingredients</h1>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h1 class="card-title text-white float-left">Ingredients</h1>
+                        </div>
+                        <div class="col-md-4">
+                            <a class="btn btn-light float-right" href="#"
+                               th:href="@{'/recipe/' + ${recipe.id} + '/ingredient/new'}" role="button">New</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="card-body">
 
